@@ -1,0 +1,2 @@
+1211 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using msedgedriver 129.0.2792.89 (resolved driver for Edge 129)
+1233 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\glubam\.cache\selenium\msedgedriver\win64\129.0.2792.89\msedgedriver.exe

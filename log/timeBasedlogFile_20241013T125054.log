@@ -1,0 +1,3 @@
+7239 [main] INFO  pages.ContactUsPage - Button clicked properly
+7287 [main] INFO  pages.ContactUsPage - Alert success is :Your message has been successfully sent to our team.
+7621 [main] INFO  base.BaseTest - Driver closed properly!!! 

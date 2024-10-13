@@ -1,0 +1,8 @@
+3082 [main] INFO  pages.ContactUsPage - Subject Heandling selected  
+3236 [main] INFO  pages.ContactUsPage - email submitted properly:testowy@test.pl
+3350 [main] INFO  pages.ContactUsPage - order submitted properly:a123
+3429 [main] INFO  pages.ContactUsPage - file attached properly:C:\Users\glubam\Desktop\test.txt
+3546 [main] INFO  pages.ContactUsPage - message submitted properly:I have a problem with my order
+6131 [main] INFO  pages.ContactUsPage - Button clicked properly
+6162 [main] INFO  pages.ContactUsPage - Alert success is :Your message has been successfully sent to our team.
+6468 [main] INFO  base.BaseTest - Driver closed properly!!! 

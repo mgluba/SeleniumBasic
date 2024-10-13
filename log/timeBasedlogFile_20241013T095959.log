@@ -1,0 +1,12 @@
+883 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+967 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\glubam\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+2860 [main] INFO  FillFormBasicTest - Chrome Driver initials properly
+3509 [main] INFO  FillFormBasicTest - URL opened http://www.automationpractice.pl/index.php
+3519 [main] INFO  FillFormBasicTest - Timeout 5 sec
+4219 [main] INFO  FillFormBasicTest - Contact Us link clicked properly  
+4531 [main] INFO  FillFormBasicTest - Subject Heandling selected  
+4673 [main] INFO  FillFormBasicTest - email submitted properly: test@test.com 
+4796 [main] INFO  FillFormBasicTest - order submitted properly: 123 
+4955 [main] INFO  FillFormBasicTest - file attached properly: test.txt 
+5105 [main] INFO  FillFormBasicTest - message submitted properly:I have a problem with my order
+5754 [main] INFO  FillFormBasicTest - Button clicked properly

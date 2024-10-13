@@ -1,0 +1,12 @@
+593 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+616 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\glubam\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+1764 [main] INFO  base.BaseTest - Chrome Driver initials properly
+3062 [main] INFO  base.BaseTest - URL opened http://www.automationpractice.pl/index.php
+3445 [main] INFO  FillFormAdvancedTest - Contact Us link clicked properly  
+3622 [main] INFO  FillFormAdvancedTest - Subject Heandling selected  
+3727 [main] INFO  FillFormAdvancedTest - email submitted properly: test@test.com 
+3808 [main] INFO  FillFormAdvancedTest - order submitted properly: 123 
+3915 [main] INFO  FillFormAdvancedTest - file attached properly: test.txt 
+4019 [main] INFO  FillFormAdvancedTest - message submitted properly:I have a problem with my order
+4428 [main] INFO  FillFormAdvancedTest - Button clicked properly
+7511 [main] INFO  base.BaseTest - Driver closed properly!!! 

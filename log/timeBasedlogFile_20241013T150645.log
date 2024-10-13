@@ -1,0 +1,6 @@
+17863 [main] INFO  base.BaseTest - URL opened https://cosmocode.io/automation-practice-webtable/
+17876 [main] INFO  base.BaseTest - Driver intializet properly
+17915 [main] INFO  WebTableSeleniumTest - wielkość tablicy= 197
+19679 [main] INFO  WebTableSeleniumTest - My row= 141
+19709 [main] INFO  WebTableSeleniumTest - Capitol of country Poland is Warsaw
+20314 [main] INFO  base.BaseTest - Driver closed properly!!! 

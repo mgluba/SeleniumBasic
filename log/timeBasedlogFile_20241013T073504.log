@@ -1,0 +1,5 @@
+841 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+882 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\glubam\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+2449 [main] INFO  FillFormBasicTest - Chrome Driver initials properly
+2837 [main] INFO  FillFormBasicTest - URL opened http://www.automationpractice.pl/index.php
+2844 [main] INFO  FillFormBasicTest - Timeout 5 sec

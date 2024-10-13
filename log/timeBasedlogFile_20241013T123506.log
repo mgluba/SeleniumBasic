@@ -1,0 +1,14 @@
+631 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+657 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\glubam\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+1746 [main] INFO  base.BaseTest - Chrome Driver initials properly
+2334 [main] INFO  base.BaseTest - URL opened http://www.automationpractice.pl/index.php
+2343 [main] INFO  base.BaseTest - Driver intializet properly
+2795 [main] INFO  pages.HomePage - Contact Us link clicked properly  
+3047 [main] INFO  pages.ContactUsPage - Subject Heandling selected  
+3169 [main] INFO  pages.ContactUsPage - email submitted properly:testowy@test.pl
+3318 [main] INFO  pages.ContactUsPage - order submitted properly:a123
+3444 [main] INFO  pages.ContactUsPage - file attached properly:C:\Users\glubam\Desktop\test.txt
+3542 [main] INFO  pages.ContactUsPage - message submitted properly:I have a problem with my order
+5660 [main] INFO  pages.ContactUsPage - Button clicked properly
+5692 [main] INFO  pages.ContactUsPage - Alert success is :Your message has been successfully sent to our team.
+6011 [main] INFO  base.BaseTest - Driver closed properly!!! 

@@ -1,0 +1,9 @@
+1173 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+1227 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\glubam\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+2994 [main] INFO  base.BaseTest - Chrome Driver initials properly
+5415 [main] INFO  base.BaseTest - URL opened https://cosmocode.io/automation-practice-webtable/
+5423 [main] INFO  base.BaseTest - Driver intializet properly
+5492 [main] INFO  WebTableSeleniumTest - wielkość tablicy= 197
+7309 [main] INFO  WebTableSeleniumTest - My row= 141
+7334 [main] INFO  WebTableSeleniumTest - Capitol of country Poland is Warsaw
+7719 [main] INFO  base.BaseTest - Driver closed properly!!! 

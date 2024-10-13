@@ -1,0 +1,32 @@
+<configuration scan="true">
+    <statusListener class="ch.qos.logback.core.status.NopStatusListener"/>
+    <property name="DEV_HOME" value="${user.dir}/log"/>
+    <timestamp key="bySecond" datePattern="yyyyMMdd'T'HHmmss"/>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender"> //appender - miejsce do którego będą wysyłane informacje
+        //u nas to Standard Output - czyli na konsole
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%30(%boldGreen(%class{0})) %green(%d{yyyy-MM-dd HH:mm:ss}) %boldBlue(%marker - %msg%n)</Pattern>
+        </layout>
+    </appender>
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender"> // sppender może zrobić plik z logami
+        <file>${DEV_HOME}/timeBasedlogFile_${bySecond}.log</file>// można okreslić konwensja nazewsnictwa i lokalizację
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">// mówi że pewnie logi ma usunąć pod pewnymi warunkami
+            <fileNamePattern>${DEV_HOME}/timeBasedlogFile.%d{yyyy-MM-dd-HH-mm}.zip</fileNamePattern>
+            <maxHistory>3</maxHistory>
+            <totalSizeCap>30KB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%relative [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="com.dj.tests">
+        <appender-ref ref="FILE"/>
+    </logger>
+    <root level="INFO"> //root level - wszytskie logi pojawiają sie z pewnym okreslonym symbolem 5 najwazniejszych
+        // różne rodzaje INFO,debug, warn,error , trace. w zalezności który wybiorę, pokazują się w różnych sytuacjach
+        // tak jakby filtrowanie logów z dokładnością do typu tych logów. Najbardziej ogólne INFO. Aplikacje na peodukcji
+        //mają logowaie tylko na error
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>

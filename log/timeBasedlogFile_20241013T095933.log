@@ -1,0 +1,5 @@
+623 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 129.0.6668.100 (resolved driver for Chrome 129)
+652 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\glubam\.cache\selenium\chromedriver\win64\129.0.6668.100\chromedriver.exe
+1864 [main] INFO  base.BaseTest - Chrome Driver initials properly
+3260 [main] INFO  base.BaseTest - URL opened http://www.automationpractice.pl/index.php
+3501 [main] INFO  base.BaseTest - Driver closed properly!!! 
